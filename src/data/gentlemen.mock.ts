@@ -1,4 +1,4 @@
-[
+export const gentlemen = [
   {
     id: 1,
     name: "Bertin Osborne",
