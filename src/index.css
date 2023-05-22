@@ -2,16 +2,18 @@
   --background-main-color: #c2e7da;
   --background-secondary-color: #600;
   --background-small-items: #060;
-  --main-color: #6290c3;
+  --main-color: #d8fff2;
   --text-color: #000046;
 }
 * {
   box-sizing: border-box;
 }
-body {
+body,
+html {
   margin: 0;
   color: var(--text-color);
   font-family: "Open Sans", sans-serif;
+  background-color: var(--background-main-color);
 }
 ul,
 li {
@@ -26,8 +28,12 @@ h1,
 h2 {
   margin: 0;
 }
+
+h1 {
+  font-size: 3rem;
+}
 .container {
-  background-color: var(--background-main-color);
+  background-color: white;
   width: 800px;
   margin: 0 auto;
   padding: 20px;

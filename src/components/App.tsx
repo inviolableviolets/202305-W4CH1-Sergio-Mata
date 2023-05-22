@@ -1,11 +1,18 @@
-import { Header } from "./components/header";
+import { Info } from "./Info";
+import { Button } from "./Button";
+import { Gentleman } from "./Gentleman";
 
 function App() {
+  const title = "Pacones pointing at you";
   return (
     <>
-      <div>
-        <Header title="Pacones" subtitle="pointing at you"></Header>
-      </div>
+      <Info title={title}></Info>
+      <Button></Button>
+      <main className="main">
+        <ul className="gentlemen">
+          <Gentleman></Gentleman>
+        </ul>
+      </main>
     </>
   );
 }
