@@ -1,15 +1,9 @@
-type PropsType = {
-  title: string;
-  subtitle: string;
-};
-
-export function Header({ title, subtitle }: PropsType) {
+export function Header() {
   return (
     <>
-      <header className="header">
-        <h1>{title.toUpperCase()}</h1>
+      <header className="main-header">
+        <h1 className="main-title">The pointing gentlemen</h1>
       </header>
-      <h2>{subtitle.toUpperCase()}</h2>
     </>
   );
 }
